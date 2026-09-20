@@ -26,6 +26,7 @@
 
 - 微信：**Shawnxx20100217**
 - 中国抖音：**Shawnxx20100217**
+- Telegram：[**@shawnxio**](https://t.me/shawnxio)
 
 申请激活或续期时，请附上程序显示的设备识别码。
 
