@@ -4,19 +4,26 @@ macOS 与 Windows 的 AI 悬浮工作区，支持 ChatGPT、Gemini、Grok 和 De
 
 A floating AI workspace for macOS and Windows, with shared product naming, icon naming and offline authorization.
 
-**macOS: 0.4.31（macOS 13+） · Windows: 0.4.30（Windows 10/11 x64）**
+**macOS: 0.4.32（macOS 13+） · Windows: 0.4.30（Windows 10/11 x64）**
 
 ## 下载 · Download
 
-按系统选择下载：macOS 本次更新到 [v0.4.31](https://github.com/Shawnxx20100217/yunxi-ai/releases/tag/v0.4.31)，Windows 保持 [v0.4.30](https://github.com/Shawnxx20100217/yunxi-ai/releases/tag/v0.4.30)。
+按系统选择下载：macOS 本次更新到 [v0.4.32](https://github.com/Shawnxx20100217/yunxi-ai/releases/tag/v0.4.32)，Windows 保持 [v0.4.30](https://github.com/Shawnxx20100217/yunxi-ai/releases/tag/v0.4.30)。
 
 Choose your platform below. This release updates macOS only; Windows remains on v0.4.30.
 
-- [macOS 安装包 · macOS installer](https://github.com/Shawnxx20100217/yunxi-ai/releases/download/v0.4.31/ParallelDesk-0.4.31-installer-macOS.zip)
+- [macOS 安装包 · macOS installer](https://github.com/Shawnxx20100217/yunxi-ai/releases/download/v0.4.32/Parallel-Desk-0.4.32-macOS.zip)
 - [Windows 安装器 · Windows installer](https://github.com/Shawnxx20100217/yunxi-ai/releases/download/v0.4.30/ParallelDesk-Setup-0.4.30-x64.exe)
 - [Windows ZIP](https://github.com/Shawnxx20100217/yunxi-ai/releases/download/v0.4.30/ParallelDesk-0.4.30-x64.zip)
 
-## macOS 0.4.31 更新 · What’s new
+## macOS 0.4.32 更新 · What’s new
+
+- 新增「截图后自动复制简短答案」开关，仅支持 ChatGPT。New optional automatic short-answer copying for ChatGPT.
+- 按 **Option + S** 截图，回复完整后自动复制一次，再用 **Command + V** 粘贴。Capture with **Option + S**; after the response finishes, the short answer is copied once for **Command + V**.
+- 保留连续截图；聊天窗口保持隐藏，可与答案字母提示同时使用。Batch capture and hidden-window operation are supported, alongside the answer-letter badge.
+- 会替换剪贴板文字；开关仅本次运行有效，重启后默认关闭。Replaces clipboard text; the setting resets to off when the app restarts.
+
+## 相关快捷键 · Shortcuts
 
 - **Option + P**：开启／关闭鼠标旁答案提示。Toggle the answer badge.
 - **Option + A**：上次答案再显示 5 秒，无需再次截图或调用 AI。Show the last completed answer again for five seconds, without capturing or querying AI again.
