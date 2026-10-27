@@ -1,32 +1,31 @@
 # Parallel Desk · 云隙 AI
 
-macOS 与 Windows 的 AI 悬浮工作区，支持 ChatGPT、Gemini、Grok 和 DeepSeek。
+macOS 与 Windows 的 AI 悬浮工作区，支持 ChatGPT、Gemini、Grok 和 DeepSeek；macOS 0.4.34 新增豆包。
 
-A floating AI workspace for macOS and Windows, with shared product naming, icon naming and offline authorization.
+A floating AI workspace for macOS and Windows, with offline authorization. macOS 0.4.34 adds Doubao.
 
-**macOS: 0.4.33（macOS 13+） · Windows: 0.4.30（Windows 10/11 x64）**
+**macOS: 0.4.34（macOS 13+） · Windows: 0.4.30（Windows 10/11 x64）**
 
 ## 下载 · Download
 
-按系统选择下载：macOS 本次更新到 [v0.4.33](https://github.com/Shawnxx20100217/yunxi-ai/releases/tag/v0.4.33)，Windows 保持 [v0.4.30](https://github.com/Shawnxx20100217/yunxi-ai/releases/tag/v0.4.30)。
+按系统选择下载：macOS 本次更新到 [v0.4.34](https://github.com/Shawnxx20100217/yunxi-ai/releases/tag/v0.4.34)，Windows 保持 [v0.4.30](https://github.com/Shawnxx20100217/yunxi-ai/releases/tag/v0.4.30)。
 
 Choose your platform below. This release updates macOS only; Windows remains on v0.4.30.
 
-- [macOS 安装包 · macOS installer](https://github.com/Shawnxx20100217/yunxi-ai/releases/download/v0.4.33/Parallel-Desk-0.4.33-macOS.zip)
+- [macOS 安装包 · macOS installer](https://github.com/Shawnxx20100217/yunxi-ai/releases/download/v0.4.34/Parallel-Desk-0.4.34-macOS.zip)
 - [Windows 安装器 · Windows installer](https://github.com/Shawnxx20100217/yunxi-ai/releases/download/v0.4.30/ParallelDesk-Setup-0.4.30-x64.exe)
 - [Windows ZIP](https://github.com/Shawnxx20100217/yunxi-ai/releases/download/v0.4.30/ParallelDesk-0.4.30-x64.zip)
 
-## macOS 0.4.33 更新 · What’s new
+## macOS 0.4.34 更新 · What’s new
 
-- 修正答案提示模式下富文本输入框自动排版导致截图未添加的问题。Fixed screenshot attachment preparation when the rich-text composer reformats the prompt in answer-hint mode.
-- 后续授权撤销检查改为后台刷新，避免联网等待阻塞截图；原有校验继续生效。Runtime revocation refreshes now run in the background without weakening signature or license checks.
-- 关闭提示后保留最近失败的阶段与原因，便于排查。The latest failure stage and reason remain visible after turning hints off.
-- 若旧版失败后留下提示文字，请手动清空遗留草稿再试。Clear any leftover generated draft from a failed older attempt before retrying.
-- 隐藏窗口、上传与授权回归已通过；受影响的其他 Mac 仍待更新后实测。Hidden-window, upload and licensing regressions passed; affected Macs still need real-use confirmation.
+- 新增豆包，可直接在窗口内使用。Added Doubao to the in-app provider selector.
+- 豆包支持截图上传后自动发送、连续截图、隐藏窗口下的答案字母提示及自动复制简短答案。Doubao supports screenshot auto-send, batch capture, hidden-window answer badges and automatic short-answer copying.
+- 保留 ChatGPT 原有功能；Gemini、Grok、DeepSeek 的进一步自动化适配暂缓。Existing ChatGPT features are retained; further automation for Gemini, Grok and DeepSeek is deferred.
+- 已通过本机真实快捷键验证及客户包检查。The real shortcut test on the local Mac and customer-package checks passed.
 
 ## macOS 0.4.32 功能 · Previous feature update
 
-- 新增「截图后自动复制简短答案」开关，仅支持 ChatGPT。New optional automatic short-answer copying for ChatGPT.
+- 新增「截图后自动复制简短答案」开关，当时仅支持 ChatGPT；0.4.34 扩展至豆包。Introduced optional automatic short-answer copying for ChatGPT; 0.4.34 extends it to Doubao.
 - 按 **Option + S** 截图，回复完整后自动复制一次，再用 **Command + V** 粘贴。Capture with **Option + S**; after the response finishes, the short answer is copied once for **Command + V**.
 - 保留连续截图；聊天窗口保持隐藏，可与答案字母提示同时使用。Batch capture and hidden-window operation are supported, alongside the answer-letter badge.
 - 会替换剪贴板文字；开关仅本次运行有效，重启后默认关闭。Replaces clipboard text; the setting resets to off when the app restarts.
@@ -40,7 +39,7 @@ Choose your platform below. This release updates macOS only; Windows remains on 
 
 ## 功能 · Features
 
-- AI 悬浮窗，可在四个平台之间切换。
+- AI 悬浮窗：macOS 可在五个平台之间切换，Windows 保持四个平台。
 - 截图、批量截图、OCR 和网页内文字输入。
 - 透明度、置顶、全屏应用上方显示和快捷键。
 - macOS 与 Windows 使用同一套 `LC1` 离线授权协议和 `PD1` 设备码体系。
