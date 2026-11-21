@@ -4,19 +4,25 @@ macOS 与 Windows 的 AI 悬浮工作区，支持 ChatGPT、Gemini、Grok 和 De
 
 A floating AI workspace for macOS and Windows, with offline authorization. macOS 0.4.34 adds Doubao.
 
-**macOS: 0.4.34（macOS 13+） · Windows: 0.4.30（Windows 10/11 x64）**
+**macOS: 0.4.38（macOS 13+） · Windows: 0.4.30（Windows 10/11 x64）**
 
 ## 下载 · Download
 
-按系统选择下载：macOS 本次更新到 [v0.4.34](https://github.com/Shawnxx20100217/yunxi-ai/releases/tag/v0.4.34)，Windows 保持 [v0.4.30](https://github.com/Shawnxx20100217/yunxi-ai/releases/tag/v0.4.30)。
+按系统选择下载：macOS 本次更新到 [v0.4.38](https://github.com/Shawnxx20100217/yunxi-ai/releases/tag/v0.4.38)，Windows 保持 [v0.4.30](https://github.com/Shawnxx20100217/yunxi-ai/releases/tag/v0.4.30)。
 
 Choose your platform below. This release updates macOS only; Windows remains on v0.4.30.
 
-- [macOS 安装包 · macOS installer](https://github.com/Shawnxx20100217/yunxi-ai/releases/download/v0.4.34/Parallel-Desk-0.4.34-macOS.zip)
+- [macOS 安装包 · macOS installer](https://github.com/Shawnxx20100217/yunxi-ai/releases/download/v0.4.38/Parallel-Desk-0.4.38-macOS.zip)
 - [Windows 安装器 · Windows installer](https://github.com/Shawnxx20100217/yunxi-ai/releases/download/v0.4.30/ParallelDesk-Setup-0.4.30-x64.exe)
 - [Windows ZIP](https://github.com/Shawnxx20100217/yunxi-ai/releases/download/v0.4.30/ParallelDesk-0.4.30-x64.zip)
 
-## macOS 0.4.34 更新 · What’s new
+## macOS 0.4.38 更新 · What’s new
+
+截图上传或 AI 生成回复时，可以将鼠标移入屏幕右上角来隐藏或重新打开聊天窗口。隐藏窗口后上传会继续，单张和连续截图都适用。
+
+Move the pointer into the top-right corner to hide or reopen the chat while a screenshot uploads or the AI writes its reply. Single screenshots and batches continue uploading while the window is hidden.
+
+## macOS 0.4.34 · 豆包支持 / Doubao support
 
 - 新增豆包，可直接在窗口内使用。Added Doubao to the in-app provider selector.
 - 豆包支持截图上传后自动发送、连续截图、隐藏窗口下的答案字母提示及自动复制简短答案。Doubao supports screenshot auto-send, batch capture, hidden-window answer badges and automatic short-answer copying.
