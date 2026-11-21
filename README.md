@@ -1,69 +1,41 @@
+<img align="right" src="assets/parallel-desk.png" width="88" height="88" alt="Parallel Desk">
+
 # Parallel Desk · 云隙 AI
 
-macOS 与 Windows 的 AI 悬浮工作区，支持 ChatGPT、Gemini、Grok 和 DeepSeek；macOS 0.4.34 新增豆包。
+在读资料或整理笔记时，截取想问的一段，或选中一段文字，在浮窗里交给你常用的 AI。
 
-A floating AI workspace for macOS and Windows, with offline authorization. macOS 0.4.34 adds Doubao.
+Capture part of a page or select a passage, then ask your AI about it in a floating window while you read or take notes.
 
-**macOS: 0.4.38（macOS 13+） · Windows: 0.4.30（Windows 10/11 x64）**
+## 下载 · Downloads
 
-## 下载 · Download
+| 系统 / System | 版本 / Version | 下载 / Download |
+| --- | --- | --- |
+| macOS 13+ · Apple silicon / Intel | [0.4.38](https://github.com/Shawnxx20100217/yunxi-ai/releases/tag/v0.4.38) | [Mac 安装包 / Installer ZIP](https://github.com/Shawnxx20100217/yunxi-ai/releases/download/v0.4.38/Parallel-Desk-0.4.38-macOS.zip) |
+| Windows 10 / 11 · x64 | [0.4.30](https://github.com/Shawnxx20100217/yunxi-ai/releases/tag/v0.4.30) | [Windows 安装器 / Installer EXE](https://github.com/Shawnxx20100217/yunxi-ai/releases/download/v0.4.30/ParallelDesk-Setup-0.4.30-x64.exe) · [ZIP](https://github.com/Shawnxx20100217/yunxi-ai/releases/download/v0.4.30/ParallelDesk-0.4.30-x64.zip) |
 
-按系统选择下载：macOS 本次更新到 [v0.4.38](https://github.com/Shawnxx20100217/yunxi-ai/releases/tag/v0.4.38)，Windows 保持 [v0.4.30](https://github.com/Shawnxx20100217/yunxi-ai/releases/tag/v0.4.30)。
+## 第一次使用 · Getting started
 
-Choose your platform below. This release updates macOS only; Windows remains on v0.4.30.
+1. **安装 / Install**　Mac 上解压后打开「安装或更新Parallel Desk」。Windows 上运行上表中的 EXE 安装器。  
+   On Mac, unzip the download and open the installer inside. On Windows, run the EXE.
+2. **激活 / Activate**　首次打开时复制设备识别码，发给下方的管理员。收到激活码后，在这台电脑上输入即可。  
+   Copy the device code on first launch and send it to the administrator listed below. Enter the activation code on the same computer.
+3. **选择平台 / Choose an AI**　在浮窗里登录自己的 AI 账号。设备授权和 AI 平台订阅分别管理。  
+   Sign in to your own AI account in the floating window. Your device license and AI subscription are separate.
 
-- [macOS 安装包 · macOS installer](https://github.com/Shawnxx20100217/yunxi-ai/releases/download/v0.4.38/Parallel-Desk-0.4.38-macOS.zip)
-- [Windows 安装器 · Windows installer](https://github.com/Shawnxx20100217/yunxi-ai/releases/download/v0.4.30/ParallelDesk-Setup-0.4.30-x64.exe)
-- [Windows ZIP](https://github.com/Shawnxx20100217/yunxi-ai/releases/download/v0.4.30/ParallelDesk-0.4.30-x64.zip)
+两个系统均可打开 ChatGPT、Gemini、Grok 和 DeepSeek，Mac 另支持豆包。在 Mac 上，ChatGPT 和豆包可以在截图上传完成后自动发送。使用其他平台时，在网页里确认并发送即可。
 
-## macOS 0.4.38 更新 · What’s new
+Both editions offer ChatGPT, Gemini, Grok and DeepSeek. The Mac edition also includes Doubao. On Mac, ChatGPT and Doubao can send screenshots automatically once uploaded. For the other providers, review and send in the chat.
 
-截图上传或 AI 生成回复时，可以将鼠标移入屏幕右上角来隐藏或重新打开聊天窗口。隐藏窗口后上传会继续，单张和连续截图都适用。
+**[使用指南 · User guide](GUIDE.md)**　安装、截图、快捷键和常见问题 / Installation, screenshots, shortcuts and troubleshooting  
+**[更新日志 · Changelog](CHANGELOG.md)**　按版本查看变化 / Changes by version
 
-Move the pointer into the top-right corner to hide or reopen the chat while a screenshot uploads or the AI writes its reply. Single screenshots and batches continue uploading while the window is hidden.
+## 授权与联系 · Licensing & contact
 
-## macOS 0.4.34 · 豆包支持 / Doubao support
+申请激活、续期或更换设备时，请附上操作系统和设备识别码。只提交你有权分享的内容，并遵守课程或工作场景的 AI 使用规定。禁止用于考试作弊。
 
-- 新增豆包，可直接在窗口内使用。Added Doubao to the in-app provider selector.
-- 豆包支持截图上传后自动发送、连续截图、隐藏窗口下的答案字母提示及自动复制简短答案。Doubao supports screenshot auto-send, batch capture, hidden-window answer badges and automatic short-answer copying.
-- 保留 ChatGPT 原有功能；Gemini、Grok、DeepSeek 的进一步自动化适配暂缓。Existing ChatGPT features are retained; further automation for Gemini, Grok and DeepSeek is deferred.
-- 已通过本机真实快捷键验证及客户包检查。The real shortcut test on the local Mac and customer-package checks passed.
+For activation, renewal or a change of device, include your operating system and device code. Share only material you have permission to submit, and follow the AI-use rules for your class or workplace. Using Parallel Desk to cheat on exams is prohibited.
 
-## macOS 0.4.32 功能 · Previous feature update
-
-- 新增「截图后自动复制简短答案」开关，当时仅支持 ChatGPT；0.4.34 扩展至豆包。Introduced optional automatic short-answer copying for ChatGPT; 0.4.34 extends it to Doubao.
-- 按 **Option + S** 截图，回复完整后自动复制一次，再用 **Command + V** 粘贴。Capture with **Option + S**; after the response finishes, the short answer is copied once for **Command + V**.
-- 保留连续截图；聊天窗口保持隐藏，可与答案字母提示同时使用。Batch capture and hidden-window operation are supported, alongside the answer-letter badge.
-- 会替换剪贴板文字；开关仅本次运行有效，重启后默认关闭。Replaces clipboard text; the setting resets to off when the app restarts.
-
-## 相关快捷键 · Shortcuts
-
-- **Option + P**：开启／关闭鼠标旁答案提示。Toggle the answer badge.
-- **Option + A**：上次答案再显示 5 秒，无需再次截图或调用 AI。Show the last completed answer again for five seconds, without capturing or querying AI again.
-- 新截图、取消或关闭提示后清除旧答案。Starting a new capture, cancelling, or turning hints off clears the previous answer.
-- 答案标签保持鼠标旁固定位置，允许超出屏幕边缘，不再回弹。The badge follows a fixed offset and can extend past screen edges without snapping inward.
-
-## 功能 · Features
-
-- AI 悬浮窗：macOS 可在五个平台之间切换，Windows 保持四个平台。
-- 截图、批量截图、OCR 和网页内文字输入。
-- 透明度、置顶、全屏应用上方显示和快捷键。
-- macOS 与 Windows 使用同一套 `LC1` 离线授权协议和 `PD1` 设备码体系。
-- 限时授权使用本地时钟回拨保护；签名的 `PDR1` 撤销名单可锁定已撤销设备。
-- 管理员签发工具保持私有，不随客户包发布；客户包只包含公钥。
-
-## 授权 · Authorization
-
-首次运行时复制设备码，联系管理员签发永久或限时激活码。授权码在本机验证，不发送到服务器。管理员私钥不在本仓库、安装器或客户包中。
-
-On first launch, copy the device code and request a permanent or time-limited activation token from the administrator. Tokens are verified locally and the signing private key is never distributed.
-
-## 联系方式 · Contact
-
-- 微信 / WeChat：**Shawnxx20100217**
-- 中国抖音 / Douyin：**Shawnxx20100217**
-- 电报 / Telegram：[**@shawnxio**](https://t.me/shawnxio)
-
-本仓库只发布当前客户安装包和说明，不提供源代码、管理员工具或私钥。
-
-This repository publishes the current customer packages and documentation only; source code, administrator tools and private keys are not distributed.
+| 联系方式 / Contact | 账号 / Account |
+| --- | --- |
+| 微信 / WeChat · 中国抖音 / Douyin | **Shawnxx20100217** |
+| Telegram | [@shawnxio](https://t.me/shawnxio) |
