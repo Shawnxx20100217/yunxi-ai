@@ -2,6 +2,12 @@
 
 [首页与下载 · Downloads](README.md)
 
+## 2026-11-25 · macOS [0.4.40](https://github.com/Shawnxx20100217/yunxi-ai/releases/tag/v0.4.40)
+
+连截时，Parallel Desk 会在本机逐张准备上传副本。完成连截后，图片按截图顺序一起上传。上传副本采用无损压缩，能减小文件时才使用压缩结果。桌面保存的仍是高清原图。
+
+Parallel Desk now prepares each upload copy locally as you capture a series of screenshots. When you finish, the images upload together in capture order. Lossless compression is used when it makes the file smaller. Full-resolution originals are still saved to the desktop.
+
 ## 2026-11-21 · macOS [0.4.38](https://github.com/Shawnxx20100217/yunxi-ai/releases/tag/v0.4.38)
 
 启用右上角开关后，即使截图正在上传或 AI 正在生成回复，也可移入右上角隐藏或重新打开聊天窗口。单张和整组截图都会继续上传。

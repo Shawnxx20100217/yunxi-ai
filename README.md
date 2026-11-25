@@ -10,7 +10,7 @@ Capture part of a page or select a passage, then ask your AI about it in a float
 
 | 系统 / System | 版本 / Version | 下载 / Download |
 | --- | --- | --- |
-| macOS 13+ · Apple silicon / Intel | [0.4.38](https://github.com/Shawnxx20100217/yunxi-ai/releases/tag/v0.4.38) | [Mac 安装包 / Installer ZIP](https://github.com/Shawnxx20100217/yunxi-ai/releases/download/v0.4.38/Parallel-Desk-0.4.38-macOS.zip) |
+| macOS 13+ · Apple silicon / Intel | [0.4.40](https://github.com/Shawnxx20100217/yunxi-ai/releases/tag/v0.4.40) | [Mac 安装包 / Installer ZIP](https://github.com/Shawnxx20100217/yunxi-ai/releases/download/v0.4.40/Parallel-Desk-0.4.40-macOS.zip) |
 | Windows 10 / 11 · x64 | [0.4.30](https://github.com/Shawnxx20100217/yunxi-ai/releases/tag/v0.4.30) | [Windows 安装器 / Installer EXE](https://github.com/Shawnxx20100217/yunxi-ai/releases/download/v0.4.30/ParallelDesk-Setup-0.4.30-x64.exe) · [ZIP](https://github.com/Shawnxx20100217/yunxi-ai/releases/download/v0.4.30/ParallelDesk-0.4.30-x64.zip) |
 
 ## 第一次使用 · Getting started
